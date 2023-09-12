@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net" modified="2023-09-12T14:09:22.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="J17GKdkToX9WzWA-cGCW" version="21.7.4" type="device">
+  <diagram name="Página-1" id="EmLxX_83csbIRXsKM-ba">
+    <mxGraphModel dx="880" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-9" value="escolher&amp;nbsp; opção de devolução no sistema" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.183;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="mCm_XX1DYKH_w0BwsiLu-9" parent="1" target="mCm_XX1DYKH_w0BwsiLu-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-11" value="inserir ISBN do livro" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-12" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="mCm_XX1DYKH_w0BwsiLu-11" parent="1" target="mCm_XX1DYKH_w0BwsiLu-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="91" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-15" value="gravar histórico de devolução" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="630" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="mCm_XX1DYKH_w0BwsiLu-15" parent="1" target="mCm_XX1DYKH_w0BwsiLu-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-17" value="realizar devolução" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="620" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="mCm_XX1DYKH_w0BwsiLu-17" parent="1" target="mCm_XX1DYKH_w0BwsiLu-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-19" value="tentar novamente" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="80" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-20" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.233;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="mCm_XX1DYKH_w0BwsiLu-19" parent="1" target="mCm_XX1DYKH_w0BwsiLu-27">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="510" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-21" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="mCm_XX1DYKH_w0BwsiLu-19" parent="1" target="mCm_XX1DYKH_w0BwsiLu-9">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="370" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-22" value="livro disponível?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="324" y="260" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-23" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" source="mCm_XX1DYKH_w0BwsiLu-22" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="200" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-24" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="mCm_XX1DYKH_w0BwsiLu-22" parent="1" target="mCm_XX1DYKH_w0BwsiLu-17">
+          <mxGeometry x="-1" y="-20" relative="1" as="geometry">
+            <mxPoint x="364" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="364" y="360" />
+              <mxPoint x="512" y="360" />
+              <mxPoint x="512" y="380" />
+            </Array>
+            <mxPoint x="20" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-25" value="" style="ellipse;html=1;shape=startState;" vertex="1" parent="1">
+          <mxGeometry x="100" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-26" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="mCm_XX1DYKH_w0BwsiLu-25" parent="1" target="mCm_XX1DYKH_w0BwsiLu-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-27" value="" style="ellipse;html=1;shape=startState;" vertex="1" parent="1">
+          <mxGeometry x="680" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-29" value="retornar mensagem" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mCm_XX1DYKH_w0BwsiLu-30" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="150" as="targetPoint" />
+            <mxPoint x="240" y="430" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="20" y="430" />
+              <mxPoint x="20" y="210" />
+              <mxPoint x="370" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
